@@ -19,4 +19,9 @@ https://www.youtube.com/watch?v=zMkAo7u9KQc&list=PLmA-1xX7IuzAcOe1hOaDW8Jj4mVaLO
 
 ## ДЗ
 
-TBA
+Docker для запуска:
+следует прокидывать 80 порт
+
+- sindq/lsml-w5-ru:latest
+
+в нём две домашки, вас интересует та что spark-advanced
