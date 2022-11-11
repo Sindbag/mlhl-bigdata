@@ -24,4 +24,4 @@ Docker для запуска:
 
 - sindq/lsml-w5-ru:latest
 
-в нём две домашки, вас интересует та что spark-advanced
+в нём две домашки, вну dat
