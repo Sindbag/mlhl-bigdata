@@ -59,35 +59,34 @@
 1. У вас есть две нумерации недель (W\<N>): нумерация по темам из плана и внутренняя техническая нумерация докеров с заданиями. 
 2. Для сопоставления этих двух нумераций используется таблица ниже: 
 
-    | Номер темы (URI грейдера)  | Докер-контейнер |
-    | -------------   | -------------- |
-    | w1/1    | w2 t1   |
-    | w1/2    | w2 t2   |
-    | w1/3    | w2 t3   |
-    | w1/4    | w2 t4   |
-    | w1/5    | w2 t5   |
-    | w1/6    | w2 t6   |
-    | w1/7    | w11 t1  |
-    | w1/8    | w11 t2  |
-    | w1/9    | w11 t3  |
-    | w1/10    | w11 t4  |
-    | w1/11    | w11 t5  |
-    | w2/1    | w1 t1   |
-    | w2/2    | w1 t2   |
-    | w2/3    | w1 t3   |
-    | w3/1    | -----   |
-    | w4/1    | w3   |
-    | w5/1    | w4   |
-    | w6/1    | w5   |
-    | w7/1    | w8   |
-    | w8/1    | w13 t1  |
-    | w8/2    | w13 t2  |
-    | w9/1    | w14 t1  |
-    | w9/2    | w14 t2  |
-    | w9/3    | w14 t3  |
-    | w9/4    | w14 t4  |
-    | w10/1   | w15 t1  |
-    | w10/2   | w15 t2  |
+    | Название блока | Номер темы (URI грейдера) | Докер-контейнер |
+    | -------------  | -------------  | -------------- |
+    | Bash | w1/1    | `sindq/lsml-w2-ru:latest` |
+    | Bash | w1/2    | `sindq/lsml-w2-ru:latest` |
+    | Bash | w1/3    | `sindq/lsml-w2-ru:latest` |
+    | Bash | w1/4    | `sindq/lsml-w2-ru:latest` |
+    | Bash | w1/5    | `sindq/lsml-w2-ru:latest` |
+    | Docker | w1/6  | `sindq/lsml-w11-t1-ru:latest` |
+    | Docker | w1/7  | `sindq/lsml-w11-t2-ru:latest` |
+    | Docker | w1/8  | `sindq/lsml-w11-t3-ru:latest` |
+    | Docker | w1/9  | `sindq/lsml-w11-t4-ru:latest` |
+    | Docker | w1/10 | `sindq/lsml-w11-t5-ru:latest` |
+    | Postgres | w2/1 | `sindq/lsml-w1-t1-ru:latest` |
+    | Mongodb | w2/2 | `sindq/lsml-w1-t2-ru:latest` |
+    | Web-Scraping* | w2/3 | `sindq/lsml-w1-t3-ru:latest` |
+    | ----- | -----  | ----- |
+    | Hadoop | w4/1  | `sindq/lsml-w3-ru:latest` |
+    | Spark | w5/1   | `sindq/lsml-w4-ru:latest`   |
+    | Spark Advanced | w6/1 | `sindq/lsml-w5-ru:latest` |
+    | SparkML | w7/1 | `sindq/lsml-w8-ru:latest` |
+    | MLflow  | w8/1 | `sindq/lsml-w13-t1-ru:latest` |
+    | MLOps   | w8/2 | `sindq/lsml-w13-t2-ru:latest` |
+    | Compression  | w9/1 | `sindq/lsml-w14-t1-ru:latest` |
+    | Distillation | w9/2 | `sindq/lsml-w14-t2-ru:latest` |
+    | Quantization | w9/3 | `sindq/lsml-w14-t3-ru:latest` |
+    | Application* | w9/4 | `sindq/lsml-w14-t4-ru:latest` |
+    | LSH  | w10/1 | `sindq/lsml-w15-t1-ru:latest` |
+    | HNSW | w10/2 | `sindq/lsml-w15-t2-ru:latest` |
     
 3. запускаете Docker-контейнер по выбранной теме
 
